@@ -6,7 +6,7 @@ import NavBar from './components/NavBar.vue'
 
 const app = createApp(App)
 
-app.mount('#app')
-
 // global registration
 app.component('NavBar', NavBar)
+app.mount('#app')
+
