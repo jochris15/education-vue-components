@@ -94,6 +94,7 @@ export default {
           <div
             class="h-full flex flex-col justify-center items-center bg-yellow-400 border-2 border-black p-5 rounded-2xl shadow-[2px_2px_0px_rgba(0,0,0,1)]"
             v-for="product in products"
+            :key="product.id"
           >
             <div class="flex flex-1">
               <img
